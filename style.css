@@ -1,0 +1,18 @@
+*{
+    margin: auto;
+    margin: auto;
+}
+.header li{
+    display: inline;
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    font-size: 17px;
+}
+li{
+    list-style: none;
+}
+h2{
+    padding: 2.5em;
+}
