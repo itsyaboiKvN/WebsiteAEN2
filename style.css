@@ -1,5 +1,5 @@
 *{
-    margin: auto;
+    margin: 30%;
     margin: auto;
 }
 .header li{
@@ -13,6 +13,38 @@
 li{
     list-style: none;
 }
-h2{
-    padding: 2.5em;
+h2, h3{
+    padding: 2em;
+}
+.AEN{
+    border: 1px solid black;
+    background-image: url(arnold-francisca-f77Bh3inUpE-unsplash.jpg);
+    color: white;
+    border-radius: 12px;
+    height: 250px;
+    margin: 2em;
+}
+.BS{
+    border: 1px solid black;
+    background-image: url(photo-1516572980581-c9bd8bff75b0.jpg);
+    color: white;
+    border-radius: 12px;
+    height: 250px;
+    margin: 2em;
+}
+.CSY{
+    border: 1px solid black;
+    background-image: url(photo-1518770660439-4636190af475.jpg);
+    color: white;
+    border-radius: 12px;
+    height: 250px;
+    margin: 2em;
+}
+.NWT{
+    border: 1px solid black;
+    color:white;
+    background-image: url(photo-1520869562399-e772f042f422.jpg);
+    border-radius: 12px;
+    height: 250px;
+    margin: 2em;
 }
