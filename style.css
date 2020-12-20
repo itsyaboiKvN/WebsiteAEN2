@@ -10,41 +10,71 @@
     padding: 14px 16px;
     font-size: 17px;
 }
+.footer li{
+    display: inline;
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    font-size: 17px;  
+}
 li{
     list-style: none;
 }
 h2, h3{
     padding: 2em;
 }
+p{
+    padding: 1em;
+    font-family: sans-serif;
+    font-weight: bold;
+    align-content: center;
+}
 .AEN{
     border: 1px solid black;
     background-image: url(arnold-francisca-f77Bh3inUpE-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     color: white;
     border-radius: 12px;
     height: 250px;
     margin: 2em;
+    font-family: sans-serif;
+    font-weight: bold;
 }
 .BS{
     border: 1px solid black;
-    background-image: url(photo-1516572980581-c9bd8bff75b0.jpg);
+    background-image: url(Windows-Alternativen-Linux-ChromeOS-und-Mac-1024x576-9116c6b53badae02.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     color: white;
     border-radius: 12px;
     height: 250px;
     margin: 2em;
+    font-family: sans-serif;
+    font-weight: bold;
 }
 .CSY{
     border: 1px solid black;
     background-image: url(photo-1518770660439-4636190af475.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     color: white;
     border-radius: 12px;
     height: 250px;
     margin: 2em;
+    font-family: sans-serif;
+    font-weight: bold;
 }
 .NWT{
     border: 1px solid black;
     color:white;
     background-image: url(photo-1520869562399-e772f042f422.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     border-radius: 12px;
     height: 250px;
     margin: 2em;
+    font-family: sans-serif;
+    font-weight: bold;
 }
