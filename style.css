@@ -168,7 +168,9 @@ h6{ font-size: 14px;}
     text-align: center;
 }
 .rechte-Spalte{
+    display: grid;
     grid-area: rechte-Spalte;
+    align-content: center;
     padding-top: 50px;
     padding-bottom: 50px;
 }
@@ -181,9 +183,33 @@ h6{ font-size: 14px;}
     -webkit-box-shadow: -6px -5px 3px -1px rgba(0,0,0,0.75); 
     box-shadow: -6px -5px 3px -1px rgba(0,0,0,0.75);
 }
+.about-wrap{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    padding-top: 50px;
+    padding-bottom: 50px;
+    gap: 100px;
+}
+.socials{
+    display: grid;
+    align-content: center;
+    text-align: center;
+}
 
 @media screen and (max-width: 1200px){
     .main-container{
         width: 95%;
+    }
+}
+@media screen and (max-width: 800px){
+    .intro{
+        grid-template-columns: 1fr;
+        grid-template-areas:
+            'nav'
+            'linke-Spalte'
+            'rechte-Spalte';
+    }
+    .rechte-Spalte{
+        justify-content: center;
     }
 }
