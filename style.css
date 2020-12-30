@@ -205,26 +205,31 @@ h6{ font-size: 14px;}
     background-repeat: no-repeat;
     background-size: 1200px 100%;
 }
+.ueberschrift{
+    display: grid;
+    text-align: center;
+    align-content: center;
+}
 .grid-container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
-    gap: 100px 100px ;
+    grid-template-rows: 1fr;
+    padding-top: 0px;
+    gap: 100px 100px;
     margin-left: auto;
     grid-template-areas:
       "Fach1 Fach1 Fach2 Fach2"
       "Fach3 Fach3 Fach4 Fach4"
       ". . . .";
+
   }
   .Fach1 {
     display: grid;
     grid-area: Fach1;
 
-    justify-self: start;
-    padding-top: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
     padding-bottom: 50px;
-    border: 1px dashed blue;
-    height: 20em;
 
     justify-content: center;
     text-align: center;
@@ -232,11 +237,10 @@ h6{ font-size: 14px;}
   .Fach2{
     display: grid;
     grid-area: Fach2;
-
-    padding-top: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
     padding-bottom: 50px;
-    height: 20em;
-    border: 1px dashed blue;
+
 
     justify-content: center;
     text-align: center;
@@ -245,11 +249,10 @@ h6{ font-size: 14px;}
   .Fach3 {
     display: grid;
     grid-area: Fach3;
-
-    padding-top: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
     padding-bottom: 50px;
-    height: 20em;
-    border: 1px dashed blue;
+
 
     justify-content: center;
     text-align: center;
@@ -257,11 +260,74 @@ h6{ font-size: 14px;}
   .Fach4 {
     display: grid;
     grid-area: Fach4;
-
-    padding-top: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
     padding-bottom: 50px;
-    height: 20em;
-    border: 1px dashed blue;
+
+    justify-content: center;
+    text-align: center;
+}
+.heading1{
+    display: grid;
+    align-content: center;
+    text-align: center;
+    min-height: 10em;
+}
+.grid-container1{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    padding-top: 0px;
+    gap: 100px 100px;
+    margin-left: auto;
+    grid-template-areas:
+      "About1 About1 About2 About2"
+      "About3 About3 About4 About4"
+      ". . . .";
+
+  }
+  .About1 {
+    display: grid;
+    grid-area: About1;
+
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-bottom: 50px;
+
+    justify-content: center;
+    text-align: center;
+}
+  .About2{
+    display: grid;
+    grid-area: About2;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-bottom: 50px;
+
+
+    justify-content: center;
+    text-align: center;
+    
+}
+  .About3 {
+    display: grid;
+    grid-area: About3;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-bottom: 50px;
+
+
+    justify-content: center;
+    text-align: center;
+}
+  .About4 {
+    display: grid;
+    grid-area: About4;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    padding-bottom: 50px;
 
     justify-content: center;
     text-align: center;
@@ -293,6 +359,20 @@ h6{ font-size: 14px;}
             'Fach2'
             'Fach3'
             'Fach4' ;
+    }
+    .rechte-Spalte{
+        justify-content: center;
+    }
+}
+@media screen and (max-width: 800px){
+    .grid-container1{
+        grid-template-columns: 1fr;
+        grid-template-areas:
+            'nav'
+            'About1'
+            'About2'
+            'About3'
+            'About4' ;
     }
     .rechte-Spalte{
         justify-content: center;
