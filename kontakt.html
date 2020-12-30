@@ -12,31 +12,44 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="header">
-        <header>
-        <nav>
-            <ul>
+
+    <section class="s1">
+        <div class="main-container">
+                <div class="ueberschrift">
+                    <h1>Kontakt</h1>
+                </div>
+
+        <div class="intro">
+            <div class="nav">
+                <div class="dots">
+                    <div id="dot1" class="browserdot"></div>
+                    <div id="dot2" class="browserdot"></div>
+                    <div id="dot3" class="browserdot"></div>
+                </div>
+
+            <ul id="navigation">
                 <li><a href="index.html">Home</a></li>
-                <li><a href="aboutme.html">Über Mich</a></li>
-                <li><a href="schule.html">Meine Schule</a></li>
+                <li><a href="schule.html">Schule</a></li>
+                <li><a href="aboutme.html">Mehr über Mich</a></li>
             </ul>
-        </nav>
-    </header>
-    </div>
-    <div class="text">
-        <h2>Kontakt</h2>
+            </div>
 
+        <form id="contact"
+            <label>Name:</label>
+            <input class="input-field" type="text" name="Name">
 
-        
-        <div class="footer">
-            <footer>
-                <nav>
-                    <ul>
-                        <li><a href="AGB.html">AGB</a></li>
-                        <li><a href="datenschutz.html">Datenschutz</a></li>
-                    </ul>
-                </nav>
-            </footer>
-        </div>
+            <label>Betreff:</label>
+            <input class="input-field" type="text" name="Subject">
+            
+            <label>Email:</label>
+            <input class="input-field" type="text" name="Email" >
+
+            <label>Nachricht:</label>
+            <textarea class="input-field" name="message"></textarea> 
+
+            <input id="submit-btn" type="submit" value="Senden">
+        </form>
+        </section>
+
 </body>
 </html>
