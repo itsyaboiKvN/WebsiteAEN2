@@ -5,7 +5,7 @@
     --borderColor:#c1c1c1;
 
     --mainText:black;
-    --secondaryText:#0a6279;
+    --secondaryText:#00b3b3;
 
     --themeDotBorder:#24292e;
     --PreviewBG:rgb(251, 249, 243, 0.8)
@@ -240,7 +240,7 @@ h6{ font-size: 14px;}
     margin-left: 20px;
     margin-right: 20px;
     padding-bottom: 50px;
-
+    background-image: url(altumcode-dC6Pb2JdAqs-unsplash.jpg);
 
     justify-content: center;
     text-align: center;
@@ -252,7 +252,7 @@ h6{ font-size: 14px;}
     margin-left: 20px;
     margin-right: 20px;
     padding-bottom: 50px;
-
+    background-image: url(johny-vino-R54V69BN0MI-unsplash.jpg);
 
     justify-content: center;
     text-align: center;
@@ -273,6 +273,7 @@ h6{ font-size: 14px;}
     align-content: center;
     text-align: center;
     min-height: 10em;
+    background-image: url(vincent-ledvina-t09GephQiOY-unsplash.jpg);
 }
 .grid-container1{
     display: grid;
@@ -294,7 +295,7 @@ h6{ font-size: 14px;}
     margin-left: 20px;
     margin-right: 20px;
     padding-bottom: 50px;
-
+    background-image: url(hoch3media-87OYbWhRbvs-unsplash.jpg);
     justify-content: center;
     text-align: center;
 }
@@ -304,7 +305,7 @@ h6{ font-size: 14px;}
     margin-left: 20px;
     margin-right: 20px;
     padding-bottom: 50px;
-
+    background-image: url(fabio-silva-nmTm7knUnqs-unsplash.jpg);
 
     justify-content: center;
     text-align: center;
@@ -316,7 +317,7 @@ h6{ font-size: 14px;}
     margin-left: 20px;
     margin-right: 20px;
     padding-bottom: 50px;
-
+    background-image: url(vincent-ledvina-t09GephQiOY-unsplash.jpg);
 
     justify-content: center;
     text-align: center;
@@ -328,9 +329,14 @@ h6{ font-size: 14px;}
     margin-right: 20px;
     margin-bottom: 20px;
     padding-bottom: 50px;
+    background-image: url(lukasz-szmigiel-jFCViYFYcus-unsplash.jpg);
     justify-content: center;
     text-align: center;
 }
+#shoutout{
+    font-size: large;
+}
+
 #contact{
     display: block;
     max-width: 600px;
