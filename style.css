@@ -8,7 +8,8 @@
     --secondaryText:#00b3b3;
 
     --themeDotBorder:#24292e;
-    --PreviewBG:rgb(251, 249, 243, 0.8)
+    --PreviewBG:rgb(251, 249, 243, 0.8);
+
 }
 
 html, body{
@@ -226,11 +227,11 @@ h6{ font-size: 14px;}
   .Fach1 {
     display: grid;
     grid-area: Fach1;
-
+    color: var(--PictureColor);
     margin-left: 20px;
     margin-right: 20px;
     padding-bottom: 50px;
-
+    background-image: url(jonathan-SwVkmowt7qA-unsplash.jpg);
     justify-content: center;
     text-align: center;
 }
@@ -264,7 +265,7 @@ h6{ font-size: 14px;}
     margin-right: 20px;
     margin-bottom: 20px;
     padding-bottom: 50px;
-
+    background-image: url(juan-jose-porta-aYZ1aBGdeDo-unsplash.jpg);
     justify-content: center;
     text-align: center;
 }
