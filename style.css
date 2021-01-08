@@ -16,7 +16,9 @@ html, body{
     padding: 0;
     margin: 0;
 }
-
+body{
+    transition: 0.3s;
+}
 h1, h2, h3, h4, h5, h6, strong{
     color:var(--mainText) ;
     font-family: 'Roboto Condensed', sans-serif;
@@ -41,7 +43,6 @@ h3{ font-size: 28px;}
 h4{ font-size: 22px;}
 h5{ font-size: 18px;}
 h6{ font-size: 14px;}
-
 
 .s1{
     background-color: var(--mainColor);
@@ -154,14 +155,14 @@ h6{ font-size: 14px;}
 #light-mode{
     background-color: #fff;
 }
-#blue-mode{
-    background-color: blue;
+#dark-mode{
+    background-color: black;
 }
 #green-mode{
     background-color: green;
 }
-#purple-mode{
-    background-color: purple;
+#blue-mode{
+    background-color: navy;
 }
 #settings{
     font-size: 12px;
@@ -227,11 +228,9 @@ h6{ font-size: 14px;}
   .Fach1 {
     display: grid;
     grid-area: Fach1;
-    color: var(--PictureColor);
     margin-left: 20px;
     margin-right: 20px;
     padding-bottom: 50px;
-    background-image: url(jonathan-SwVkmowt7qA-unsplash.jpg);
     justify-content: center;
     text-align: center;
 }
@@ -241,8 +240,6 @@ h6{ font-size: 14px;}
     margin-left: 20px;
     margin-right: 20px;
     padding-bottom: 50px;
-    background-image: url(altumcode-dC6Pb2JdAqs-unsplash.jpg);
-
     justify-content: center;
     text-align: center;
     
@@ -253,8 +250,6 @@ h6{ font-size: 14px;}
     margin-left: 20px;
     margin-right: 20px;
     padding-bottom: 50px;
-    background-image: url(johny-vino-R54V69BN0MI-unsplash.jpg);
-
     justify-content: center;
     text-align: center;
 }
@@ -265,7 +260,6 @@ h6{ font-size: 14px;}
     margin-right: 20px;
     margin-bottom: 20px;
     padding-bottom: 50px;
-    background-image: url(juan-jose-porta-aYZ1aBGdeDo-unsplash.jpg);
     justify-content: center;
     text-align: center;
 }
@@ -296,7 +290,6 @@ h6{ font-size: 14px;}
     margin-left: 20px;
     margin-right: 20px;
     padding-bottom: 50px;
-    background-image: url(hoch3media-87OYbWhRbvs-unsplash.jpg);
     justify-content: center;
     text-align: center;
 }
@@ -306,8 +299,6 @@ h6{ font-size: 14px;}
     margin-left: 20px;
     margin-right: 20px;
     padding-bottom: 50px;
-    background-image: url(fabio-silva-nmTm7knUnqs-unsplash.jpg);
-
     justify-content: center;
     text-align: center;
     
@@ -318,7 +309,6 @@ h6{ font-size: 14px;}
     margin-left: 20px;
     margin-right: 20px;
     padding-bottom: 50px;
-    background-image: url(vincent-ledvina-t09GephQiOY-unsplash.jpg);
 
     justify-content: center;
     text-align: center;
@@ -330,7 +320,6 @@ h6{ font-size: 14px;}
     margin-right: 20px;
     margin-bottom: 20px;
     padding-bottom: 50px;
-    background-image: url(lukasz-szmigiel-jFCViYFYcus-unsplash.jpg);
     justify-content: center;
     text-align: center;
 }

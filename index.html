@@ -9,14 +9,15 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,500&family=Open+Sans+Condensed:ital,wght@1,300&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+    <link  rel="stylesheet" type="text/css" href="style.css">
+    <link id="theme-style" rel="stylesheet" href="dark.css">
 
 </head>
 <body>
 
     <section class="s1">
         <div class="main-container">
-            <div class="greeting">>
+            <div class="greeting">
             <h1>Hi, ich bin Kevin Gleissner</h1>
             </div>
 
@@ -36,13 +37,13 @@
             </div>
             <div class="linke-Spalte">
                 <img id="profile_pic" src="IMG_20190814_112551.jpg" alt="">
-                <h5 style="text-align: center;line-height: 0;">Personalize Theme: (Work in Progress)</h5>
+                <h5 style="text-align: center;line-height: 0;">Personalize Theme: </h5><h5 style="text-align: center;line-height: 0;">*dies wird für ihren nächsten besuch gespeichert!</h5>
 
                 <div id="theme-options-wrapper">
-                    <div id="light-mode" class="theme_options"></div>
-                    <div id="blue-mode" class="theme_options"></div>
-                    <div id="green-mode" class="theme_options"></div>
-                    <div id="purple-mode" class="theme_options"></div>
+                    <div data-mode = "light" id="light-mode" class="theme_options"></div>
+                    <div data-mode = "dark" id="dark-mode" class="theme_options"></div>
+                    <div data-mode = "green" id="green-mode" class="theme_options"></div>
+                    <div data-mode = "blue" id="blue-mode" class="theme_options"></div>
                 </div>
             </div>
             <div class="rechte-Spalte">
@@ -91,5 +92,6 @@
             </ul>
             </div>
     </section>
-</body>
+    <script src="script.js"></script>
+    </body>
 </html>
