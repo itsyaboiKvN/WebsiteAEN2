@@ -10,6 +10,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,500&family=Open+Sans+Condensed:ital,wght@1,300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <link id="theme-style" rel="stylesheet" href="dark.css">
 </head>
 <body>
     <section class="s1">
@@ -31,6 +32,14 @@
                     <li><a href="schule.html">Schule</a></li>
                 </ul>
             </section>
+            <h5 style="text-align: center;line-height: 0;">Personalize Theme: </h5><h5 style="text-align: center;line-height: 0;">*dies wird für ihren nächsten Besuch gespeichert!</h5>
+
+            <div id="theme-options-wrapper">
+                <div data-mode = "light" id="light-mode" class="theme_options"></div>
+                <div data-mode = "dark" id="dark-mode" class="theme_options"></div>
+                <div data-mode = "green" id="green-mode" class="theme_options"></div>
+                <div data-mode = "blue" id="blue-mode" class="theme_options"></div>
+            </div>
                 </div>
                 <div class="ueberschrift">
                     <h3>Was ich neben der Schule noch mache</h3>
@@ -78,5 +87,6 @@
     <ul id="navigation">
         <li><a href="kontakt.html">Kontakt</a></li>
     </ul>
+    <script src="script.js"></script>
 </body>
 </html>
